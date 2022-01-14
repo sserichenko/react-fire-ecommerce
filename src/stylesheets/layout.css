@@ -1,0 +1,97 @@
+.header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 2;
+}
+.navbar{
+    background-color: #003F5C !important;
+}
+.nav-link {
+    color: #ffffff !important;
+}
+
+.nav-link span {
+    font-size: 10px;
+    font-weight: 600;
+    padding: 6px 8px;
+    background: #ffffff;
+    color: #003F5C !important;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.navbar-brand{
+    color: #ffffff !important;
+    font-weight: bold !important;
+}
+
+.content{
+    padding: 80px 0px 120px;
+}
+
+button{
+    background-color: #003F5C !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: white !important;
+    padding: 6px;
+    border-radius: 4px;
+    border: 1px solid white!important;
+}
+
+button:hover{
+    background-color: #36a849 !important
+}
+
+.footer{
+    text-align: center;
+    color: #ffffff !important;
+    padding: 10px;
+    background-color: #003F5C !important;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.table{
+    vertical-align: middle!important;
+    text-align: center !important;
+}
+
+.productTable{
+    background: rgb(247, 241, 241);
+    border: 2px solid #003F5C;
+}
+
+.productTable thead{
+    background: #003F5C;
+    color: #ffffff;
+}
+
+.loader{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+}
+.spinner-border{
+    width: 100px;
+    height: 100px;
+    color: #003F5C;
+}
+.nav-tabs button.active{
+    color: red!important;
+    border-color: transparent !important;
+}
+
+.nav-tabs .nav-link{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.nav-tabs{
+    border-bottom: 1px solid #003F5C!important;
+}
